@@ -1,29 +1,29 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-.wrapper{
+.wrapper {
     background-color: black;
 }
 
-.home-page{
+.home-page {
     position: relative;
     background-image: url(background.jpg);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
     /* background-attachment: fixed; */
-     filter: brightness(90%); 
+    filter: brightness(90%);
 
-     
+
 }
 
 
-.container{
-    
+.container {
+
     width: 1050px;
     margin-left: 10%;
     padding-top: 30px;
@@ -31,29 +31,31 @@
 }
 
 
-.navbar{
+.navbar {
     /* border: 2px solid yellow;  */
     display: flex;
     justify-content: space-between;
     /* filter: brightness(200%); */
-    
+
 }
 
-.netflix{
+.netflix {
     /* border: 5px solid green; */
     color: red;
     font-size: 1.2em;
     filter: brightness(200%);
 }
-.lang-sign{
+
+.lang-sign {
     /* border: 2px solid red; */
     display: flex;
     gap: 10px;
     margin-right: 30px;
-    
-    
-    
+
+
+
 }
+
 .language select {
     background-color: black;
     color: white;
@@ -69,34 +71,35 @@
     border: none;
     filter: brightness(90%);
 }
-option{
+
+option {
     color: black;
     background-color: white;
 
     border: none;
 }
 
-.sign-in button{
+.sign-in button {
     background-color: red;
     color: white;
-   width: 80px;
-   height: 30px;
+    width: 80px;
+    height: 30px;
     font-size: 1em;
     cursor: pointer;
     border: none;
     padding: 10px;
     margin-top: 8px;
     padding-top: 5px;
-  border-radius: 5px;
-  
+    border-radius: 5px;
+
 }
 
-.sign-in button:hover{
-    background: rgb(193,17,25);
+.sign-in button:hover {
+    background: rgb(193, 17, 25);
 }
 
 
-.content_main{
+.content_main {
     /* border: 2px solid orange; */
     margin-top: 120px;
     margin-left: 23%;
@@ -106,7 +109,7 @@ option{
     flex-direction: column; */
 }
 
-.centre_heading{
+.centre_heading {
 
     font-size: 1.75rem;
     font-weight: 900;
@@ -114,7 +117,7 @@ option{
     font-family: 'Netflix Sans', 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Ubuntu', sans-serif;
 }
 
-.content_payment{
+.content_payment {
     text-align: center;
     font-size: 1.35rem;
     font-weight: 500;
@@ -123,7 +126,7 @@ option{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.content-member{
+.content-member {
     text-align: center;
     font-size: 1.035rem;
     font-weight: 400;
@@ -132,7 +135,7 @@ option{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.enter-mail{
+.enter-mail {
     display: flex;
     justify-content: space-between;
     font-size: 16px;
@@ -140,7 +143,7 @@ option{
     width: 100%;
 }
 
-.enter-mail input{
+.enter-mail input {
     border: .5px solid rgb(165, 163, 163);
     width: 360px;
     height: 55px;
@@ -150,12 +153,12 @@ option{
     color: white;
     background-color: rgba(23, 23, 23, .2);
     font-weight: 800;
-    
-    border: 1px solid white; 
+
+    border: 1px solid white;
     /* filter: brightness(200%); */
 }
 
-.enter-mail button{
+.enter-mail button {
     background-color: #e50914;
     color: #fff;
     border: none;
@@ -172,14 +175,19 @@ option{
 
 }
 
+.enter-mail button:hover {
+    background: rgb(193, 17, 25);
+}
 
 
-.top-movie{
+
+.top-movie {
     background-color: black;
     /* border: 2px solid rebeccapurple; */
-    
+
 }
-.trending{
+
+.trending {
     /* border: 2px solid yellow; */
     width: 950;
     margin-top: 5%;
@@ -189,7 +197,7 @@ option{
     top: 10%;
 }
 
-.trending-now{
+.trending-now {
     /* border: 2px solid pink; */
     color: white;
     font-size: .95em;
@@ -197,7 +205,7 @@ option{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.country-movie{
+.country-movie {
 
     /* border: 2px solid brown; */
     display: flex;
@@ -207,7 +215,7 @@ option{
     gap: 20px;
 }
 
-.country-movie select{
+.country-movie select {
     font-size: 1em;
     border-radius: 5px;
     font-weight: 400;
@@ -223,7 +231,7 @@ option{
 }
 
 
-.movie-list{
+.movie-list {
     /* border: 2px solid yellow; */
     width: 100%;
     height: 330px;
@@ -235,7 +243,7 @@ option{
 }
 
 
-#movie1{
+#movie1 {
     /* border: 2px solid red; */
     width: 170px;
     margin-top: 15px;
@@ -244,7 +252,8 @@ option{
     background-image: url(222.jpg);
     background-size: cover;
 }
-#movie2{
+
+#movie2 {
     /* border: 2px solid red; */
     width: 170px;
     margin-top: 15px;
@@ -254,7 +263,7 @@ option{
     background-size: cover;
 }
 
-#movie3{
+#movie3 {
     /* border: 2px solid red; */
     width: 170px;
     margin-top: 15px;
@@ -264,7 +273,7 @@ option{
     background-size: cover;
 }
 
-#movie4{
+#movie4 {
     /* border: 2px solid red; */
     width: 170px;
     margin-top: 15px;
@@ -273,7 +282,8 @@ option{
     background-image: url(333.jpg);
     background-size: cover;
 }
-#movie5{
+
+#movie5 {
     /* border: 2px solid red; */
     width: 170px;
     margin-top: 15px;
@@ -284,20 +294,21 @@ option{
 }
 
 
-.cards:hover{
+.cards:hover {
     transform: scale(1.10);
     transition: all 0.65s;
 }
-.movie-number{
+
+.movie-number {
     color: rgb(195, 190, 190);
     font-size: 4em;
-    font-weight:bold;
+    font-weight: bold;
     /* border-radius: 2px solid white; */
     margin-top: 150px;
     margin-left: -20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-   
+
+
 }
 
 
@@ -305,7 +316,7 @@ option{
 
 
 
-.more-reasons{
+.more-reasons {
     /* border: 2px solid red; */
     width: 9050;
     margin-top: 5%;
@@ -315,13 +326,13 @@ option{
 }
 
 
-.reason h3{
+.reason h3 {
     color: white;
     font-size: 1.65em;
 }
 
 
-.reason-cards{
+.reason-cards {
     /* border: 2px solid green; */
     margin-top: 20px;
     display: flex;
@@ -330,49 +341,52 @@ option{
     gap: 15px;
 }
 
-.join-cards1{
+.join-cards1 {
 
     /* border: 2px solid yellow; */
     width: 250px;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgb(26,32,66), rgb(33,17,32));
+    background-image: linear-gradient(to bottom, rgb(26, 32, 66), rgb(33, 17, 32));
 }
-.join-cards2{
+
+.join-cards2 {
 
     /* border: 2px solid yellow; */
     width: 250px;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgb(26,32,66), rgb(33,17,32));
+    background-image: linear-gradient(to bottom, rgb(26, 32, 66), rgb(33, 17, 32));
 }
-.join-cards3{
+
+.join-cards3 {
 
     /* border: 2px solid yellow; */
     width: 250px;
     border-radius: 10px;
-    background-image: linear-gradient(to bottom, rgb(26,32,66), rgb(33,17,32));
+    background-image: linear-gradient(to bottom, rgb(26, 32, 66), rgb(33, 17, 32));
 }
-.join-cards4{
+
+.join-cards4 {
 
     /* border: 2px solid yellow; */
     width: 250px;
     border-radius: 10px;
-    
-    background-image: linear-gradient(to bottom, rgb(26,32,66), rgb(33,17,32));
+
+    background-image: linear-gradient(to bottom, rgb(26, 32, 66), rgb(33, 17, 32));
 }
 
 
-.card-title{
+.card-title {
     margin: 10px 20px 0px 20px;
     color: white;
     font-size: 1.5rem;
     font-weight: 500;
     margin-top: 24px;
-    
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
-.card-content{
+.card-content {
     color: rgb(183, 183, 192);
     margin-top: 2rem;
     margin-left: 20px;
@@ -381,7 +395,7 @@ option{
 }
 
 
-#card-icon1 img{
+#card-icon1 img {
 
     /* border: 2px solid pink; */
     width: 65px;
@@ -391,7 +405,7 @@ option{
     margin-top: 100px;
 }
 
-#card-icon2 img{
+#card-icon2 img {
 
     /* border: 2px solid pink; */
     width: 65px;
@@ -404,7 +418,7 @@ option{
 
 }
 
-#card-icon3 img{
+#card-icon3 img {
 
     /* border: 2px solid pink; */
     width: 65px;
@@ -414,7 +428,7 @@ option{
     margin-top: 70px;
 }
 
-#card-icon4 img{
+#card-icon4 img {
 
     /* border: 2px solid pink; */
     width: 65px;
@@ -422,5 +436,68 @@ option{
     margin-left: 170px;
     margin-right: 15px;
     margin-top: 53px;
-   
+
+}
+
+.questions {
+    /* border: 2px solid yellow; */
+    width: 1000px;
+    height: 600px;
+    margin-left: 12%;
+
+
+}
+
+.frequently-questions {
+
+    /* border: 2px solid green; */
+    height: 10%;
+    color: white;
+}
+
+.freqently {
+    /* border: 2px dotted pink; */
+    width: 30%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.many-questions{
+    /* border: 2px dotted rgb(143, 176, 189); */
+    width: 100%;
+    /* height: 50%; */
+    margin-top: 5px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.many-question{
+    /* border: 2px solid plum; */
+    height: 90px;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.question-content{
+    /* border: 2px solid darkcyan; */
+    height: 100%;
+    color: white;
+    padding: 1.5rem;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-weight: 300; */
+}
+
+
+.plus-icon{
+    padding: 5px 15px 15px 10px;
+    font-size: 4em;
+    color: white;
+    font-weight: 100;
 }
